@@ -1,0 +1,599 @@
+[
+  {
+    "faction": "Zerg",
+    "counts": {
+      "faction_cards": 2,
+      "unit_cards": 12,
+      "tactical_cards": 11
+    },
+    "items": [
+      {
+        "faction": "Zerg",
+        "id": "kerrigan_s_swarm",
+        "name": "Kerrigan's Swarm",
+        "slug": "kerrigansswarm",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n HERO SLOT\n 1\n\n ELITE SLOT\n 2\n\n CORE SLOT\n 3"
+      },
+      {
+        "faction": "Zerg",
+        "id": "zerg_swarm",
+        "name": "Zerg Swarm",
+        "slug": "zergswarm",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 3\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "corpser__roach_",
+        "name": "Corpser (Roach)",
+        "slug": "corpserroach",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 3+ ARM\n\n 4 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "hydralisk",
+        "name": "Hydralisk",
+        "slug": "hydralisk",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/8 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 4 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 1\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "kerrigan",
+        "name": "Kerrigan",
+        "slug": "kerrigan",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 7 SPD\n\n 6+ EVA\n\n 5+ ARM\n\n 9 HP\n\n 2 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "kerrigan_swarm_raptor__zergling_",
+        "name": "Kerrigan Swarm Raptor (Zergling)",
+        "slug": "kerriganswarmraptorzergling",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 5/9 SPD\n\n 4+ EVA\n\n 5+ ARM\n\n 2 HP\n\n 1 SIZ\n\n SQUAD:\n\n 1 - 3\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "omega_worm",
+        "name": "Omega Worm",
+        "slug": "omegaworm",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n - SPD\n\n - EVA\n\n 5+ ARM\n\n 10 HP\n\n 3 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "queen",
+        "name": "Queen",
+        "slug": "queen",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4 SPD\n\n - EVA\n\n 4+ ARM\n\n 9 HP\n\n 3 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "raptor__zergling_",
+        "name": "Raptor (Zergling)",
+        "slug": "raptorzergling",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 5/9 SPD\n\n 4+ EVA\n\n 6+ ARM\n\n 1 HP\n\n 1 SIZ\n\n SQUAD:\n\n 1 - 6\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "roach",
+        "name": "Roach",
+        "slug": "roach",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 3+ ARM\n\n 4 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "roachling",
+        "name": "Roachling",
+        "slug": "roachling",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 6+ EVA\n\n 6+ ARM\n\n 1 HP\n\n 1 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "swarmling__zergling_",
+        "name": "Swarmling (Zergling)",
+        "slug": "swarmlingzergling",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/8 SPD\n\n 5+ EVA\n\n 6+ ARM\n\n 1 HP\n\n 1 SIZ\n\n SQUAD:\n\n 1 - 6\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "vile__roach_",
+        "name": "Vile (Roach)",
+        "slug": "vileroach",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 3+ ARM\n\n 4 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "zergling",
+        "name": "Zergling",
+        "slug": "zergling",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/8 SPD\n\n 4+ EVA\n\n 6+ ARM\n\n 1 HP\n\n 1 SIZ\n\n SQUAD:\n\n 1 - 6\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Zerg",
+        "id": "accelerating_creep",
+        "name": "Accelerating Creep",
+        "slug": "acceleratingcreep",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER"
+      },
+      {
+        "faction": "Zerg",
+        "id": "evolution_chamber",
+        "name": "Evolution Chamber",
+        "slug": "evolutionchamber",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "hatchery",
+        "name": "Hatchery",
+        "slug": "hatchery",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "hydralisk_den",
+        "name": "Hydralisk Den",
+        "slug": "hydraliskden",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n ELITE SLOT\n 2"
+      },
+      {
+        "faction": "Zerg",
+        "id": "lair",
+        "name": "Lair",
+        "slug": "lair",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "malignant_creep",
+        "name": "Malignant Creep",
+        "slug": "malignantcreep",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER"
+      },
+      {
+        "faction": "Zerg",
+        "id": "overlord",
+        "name": "Overlord",
+        "slug": "overlord",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n HERO SLOT\n 1\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "overseer",
+        "name": "Overseer",
+        "slug": "overseer",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "roach_warren",
+        "name": "Roach Warren",
+        "slug": "roachwarren",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "spawning_pool",
+        "name": "Spawning Pool",
+        "slug": "spawningpool",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 BM\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Zerg",
+        "id": "spawning_pool__six_pool_",
+        "name": "Spawning Pool (Six Pool)",
+        "slug": "spawningpoolsixpool",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +2 BM\n\n CORE SLOT\n 2"
+      }
+    ]
+  },
+  {
+    "faction": "Protoss",
+    "counts": {
+      "faction_cards": 2,
+      "unit_cards": 7,
+      "tactical_cards": 10
+    },
+    "items": [
+      {
+        "faction": "Protoss",
+        "id": "daelaam",
+        "name": "Daelaam",
+        "slug": "daelaam",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 3\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "khalai",
+        "name": "Khalai",
+        "slug": "khalai",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n HERO SLOT\n 1\n\n ELITE SLOT\n 2\n\n CORE SLOT\n 3"
+      },
+      {
+        "faction": "Protoss",
+        "id": "adept",
+        "name": "Adept",
+        "slug": "adept",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 2 SHLD\n\n 5/8 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 3 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 2\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "artanis",
+        "name": "Artanis",
+        "slug": "artanis",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 4 SHLD\n\n 7 SPD\n\n 5+ EVA\n\n 4+ ARM\n\n 8 HP\n\n 2 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "praetor_guard__zealot_",
+        "name": "Praetor Guard (Zealot)",
+        "slug": "praetorguardzealot",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 3 SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 4 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 1\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "pylon",
+        "name": "Pylon",
+        "slug": "pylon",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 2 SHLD\n\n - SPD\n\n - EVA\n\n 5+ ARM\n\n 8 HP\n\n 3 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "sentry",
+        "name": "Sentry",
+        "slug": "sentry",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 2 SHLD\n\n 4/7 SPD\n\n 6+ EVA\n\n 5+ ARM\n\n 4 HP\n\n 1 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "stalker",
+        "name": "Stalker",
+        "slug": "stalker",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 3 SHLD\n\n 4/8 SPD\n\n 6+ EVA\n\n 4+ ARM\n\n 6 HP\n\n 3 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "zealot",
+        "name": "Zealot",
+        "slug": "zealot",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n 3 SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 4 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 1\n\n Supply"
+      },
+      {
+        "faction": "Protoss",
+        "id": "forge",
+        "name": "Forge",
+        "slug": "forge",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n ELITE SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "gate_chronoboosted",
+        "name": "Gate Chronoboosted",
+        "slug": "gatechronoboosted",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "gateway",
+        "name": "Gateway",
+        "slug": "gateway",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "nexus",
+        "name": "Nexus",
+        "slug": "nexus",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n CORE SLOT\n 2"
+      },
+      {
+        "faction": "Protoss",
+        "id": "observer",
+        "name": "Observer",
+        "slug": "observer",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "overcharged_nexus",
+        "name": "Overcharged Nexus",
+        "slug": "overchargednexus",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "power_field",
+        "name": "Power Field",
+        "slug": "powerfield",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n HERO SLOT\n 1\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "twilight_council",
+        "name": "Twilight Council",
+        "slug": "twilightcouncil",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n ELITE SLOT\n 1\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Protoss",
+        "id": "warp_gate",
+        "name": "Warp Gate",
+        "slug": "warpgate",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n CORE SLOT\n 2"
+      },
+      {
+        "faction": "Protoss",
+        "id": "warp_prism",
+        "name": "Warp Prism",
+        "slug": "warpprism",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 EN\n\n CORE SLOT\n 2"
+      }
+    ]
+  },
+  {
+    "faction": "Terran",
+    "counts": {
+      "faction_cards": 2,
+      "unit_cards": 7,
+      "tactical_cards": 10
+    },
+    "items": [
+      {
+        "faction": "Terran",
+        "id": "raynor_s_raiders",
+        "name": "Raynor's Raiders",
+        "slug": "raynorsraiders",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n HERO SLOT\n 1\n\n CORE SLOT\n 3\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "terran_armed_forces",
+        "name": "Terran Armed Forces",
+        "slug": "terranarmedforces",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 3\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "goliath",
+        "name": "Goliath",
+        "slug": "goliath",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 7 SPD\n\n - EVA\n\n 4+ ARM\n\n 10 HP\n\n 3 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "jim_raynor",
+        "name": "Jim Raynor",
+        "slug": "jimraynor",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 7 SPD\n\n 5+ EVA\n\n 4+ ARM\n\n 8 HP\n\n 2 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "marauder",
+        "name": "Marauder",
+        "slug": "marauder",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 6+ EVA\n\n 4+ ARM\n\n 5 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "marine",
+        "name": "Marine",
+        "slug": "marine",
+        "type": null,
+        "phases": [],
+        "text": "- SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 2 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 3\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "medic",
+        "name": "Medic",
+        "slug": "medic",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 2 HP\n\n 2 SIZ\n\n SQUAD:\n\n 1 - 1\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "point_defense_drone",
+        "name": "Point Defense Drone",
+        "slug": "pointdefensedrone",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n - SPD\n\n 6+ EVA\n\n 6+ ARM\n\n 3 HP\n\n - SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "raynor_s_raider__marine_",
+        "name": "Raynor's Raider (Marine)",
+        "slug": "raynorsraidermarine",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n - SHLD\n\n 4/7 SPD\n\n 5+ EVA\n\n 5+ ARM\n\n 2 HP\n\n 2 SIZ\n\n SQUAD:\n\n -\n\n Models\n\n 0\n\n Supply"
+      },
+      {
+        "faction": "Terran",
+        "id": "academy",
+        "name": "Academy",
+        "slug": "academy",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n SUPPORT SLOT\n 2"
+      },
+      {
+        "faction": "Terran",
+        "id": "armory",
+        "name": "Armory",
+        "slug": "armory",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 CP\n\n ELITE SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "barracks",
+        "name": "Barracks",
+        "slug": "barracks",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "barracks__proxy_",
+        "name": "Barracks (Proxy)",
+        "slug": "barracksproxy",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +2 CP\n\n CORE SLOT\n 2"
+      },
+      {
+        "faction": "Terran",
+        "id": "barracks__tech_lab_",
+        "name": "Barracks (Tech Lab)",
+        "slug": "barrackstechlab",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +2 CP\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "dropship",
+        "name": "Dropship",
+        "slug": "dropship",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n CORE SLOT\n 1\n\n SUPPORT SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "engineering_bay",
+        "name": "Engineering Bay",
+        "slug": "engineeringbay",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "factory",
+        "name": "Factory",
+        "slug": "factory",
+        "type": null,
+        "phases": [],
+        "text": "ART PLACEHOLDER\n\n RESOURCE\n +1 CP\n\n ELITE SLOT\n 2"
+      },
+      {
+        "faction": "Terran",
+        "id": "orbital_command",
+        "name": "Orbital Command",
+        "slug": "orbitalcommand",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n CORE SLOT\n 1"
+      },
+      {
+        "faction": "Terran",
+        "id": "supply_depot",
+        "name": "Supply Depot",
+        "slug": "supplydepot",
+        "type": null,
+        "phases": [],
+        "text": "RESOURCE\n +1 CP\n\n HERO SLOT\n 1\n\n ELITE SLOT\n 1\n\n CORE SLOT\n 1"
+      }
+    ]
+  }
+]
