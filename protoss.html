@@ -1232,14 +1232,9 @@
   <!-- Tab Bar -->
   <div class="tab-bar" id="tabBar"></div>
 
-  <script type="module">
-    import { getLegacyBuilderPayload } from './runtime/index.js';
-    window.__starcraftTMGRuntimePayload = getLegacyBuilderPayload('protoss');
-    window.dispatchEvent(new CustomEvent('starcraft-runtime-ready'));
-  </script>
+  <script src="./runtime/payloads/protoss.js"></script>
 
   <script>
-    function bootBuilder() {
     // ============================================================================
     // DATA: Keywords Glossary
     // ============================================================================
@@ -2180,13 +2175,6 @@
     // ============================================================================
     load();
     render();
-    }
-
-    if (window.__starcraftTMGRuntimePayload) {
-      bootBuilder();
-    } else {
-      window.addEventListener('starcraft-runtime-ready', bootBuilder, { once: true });
-    }
   </script>
 
 <script>

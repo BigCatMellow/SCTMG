@@ -22,7 +22,7 @@ function assert(condition, message) {
 
 function checkHtmlWiring(html, label) {
   assert(
-    html.includes("window.__starcraftTMGRuntimePayload = getLegacyBuilderPayload("),
+    html.includes('./runtime/payloads/') || html.includes("window.__starcraftTMGRuntimePayload = getLegacyBuilderPayload("),
     `${label}: missing runtime payload import hook`
   );
   assert(

@@ -1238,14 +1238,9 @@
   <!-- Tab Bar -->
   <div class="tab-bar" id="tabBar"></div>
 
-  <script type="module">
-    import { getLegacyBuilderPayload } from './runtime/index.js';
-    window.__starcraftTMGRuntimePayload = getLegacyBuilderPayload('terran');
-    window.dispatchEvent(new CustomEvent('starcraft-runtime-ready'));
-  </script>
+  <script src="./runtime/payloads/terran.js"></script>
 
   <script>
-    function bootBuilder() {
     // ============================================================================
     // DATA: Keywords Glossary
     // ============================================================================
@@ -2191,13 +2186,6 @@
     // ============================================================================
     load();
     render();
-    }
-
-    if (window.__starcraftTMGRuntimePayload) {
-      bootBuilder();
-    } else {
-      window.addEventListener('starcraft-runtime-ready', bootBuilder, { once: true });
-    }
   </script>
 
   <button class="app-menu-btn" id="appMenuBtn" aria-label="Open navigation menu" type="button"><span class="bars"></span></button>
