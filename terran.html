@@ -731,6 +731,24 @@
       letter-spacing: 0.04em;
       color: var(--muted);
     }
+    .unit-family-group {
+      margin-bottom: 14px;
+    }
+    .unit-family-group:last-child {
+      margin-bottom: 0;
+    }
+    .unit-family-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      padding: 2px 4px;
+      margin: 2px 0 8px;
+    }
+    .unit-family-group .unit-card:last-child {
+      margin-bottom: 0;
+    }
     
     /* Unit Card in Library */
     .unit-card {
@@ -1488,6 +1506,42 @@
       render();
     }
 
+    function getUnitFamilyName(unitOrName) {
+      const name = typeof unitOrName === 'string' ? unitOrName : (unitOrName?.name || '');
+      const trimmedName = String(name).trim();
+      const match = trimmedName.match(/\(([^()]+)\)\s*$/);
+      return (match ? match[1] : trimmedName).trim();
+    }
+
+    function isBaseFamilyUnit(unit) {
+      return unit.name.trim().toLowerCase() === getUnitFamilyName(unit).toLowerCase();
+    }
+
+    function groupUnitsByFamily(units) {
+      const sortedUnits = [...units].sort((a, b) => {
+        const familyCompare = getUnitFamilyName(a).localeCompare(getUnitFamilyName(b));
+        if (familyCompare !== 0) return familyCompare;
+
+        if (isBaseFamilyUnit(a) !== isBaseFamilyUnit(b)) {
+          return isBaseFamilyUnit(a) ? -1 : 1;
+        }
+
+        return a.name.localeCompare(b.name);
+      });
+
+      const groups = [];
+      sortedUnits.forEach(unit => {
+        const family = getUnitFamilyName(unit);
+        const lastGroup = groups[groups.length - 1];
+        if (!lastGroup || lastGroup.family !== family) {
+          groups.push({ family, units: [unit] });
+        } else {
+          lastGroup.units.push(unit);
+        }
+      });
+      return groups;
+    }
+
     function toggleLibraryCard(cardId) {
       state.expandedLibraryCards[cardId] = !state.expandedLibraryCards[cardId];
       render();
@@ -1908,9 +1962,15 @@
         const unitsInRole = unitsByRole[role];
         if (unitsInRole.length === 0) return;
         const roleKey = role.toLowerCase();
+        const familyGroups = groupUnitsByFamily(unitsInRole);
         html += '<div class="library-section">';
         html += '<div class="library-section-header"><span class="library-section-dot ' + roleKey + '"></span><span class="library-section-name">' + role + '</span></div>';
-        unitsInRole.forEach(unit => {
+        familyGroups.forEach(group => {
+          const showFamilyLabel = group.units.length > 1;
+          if (showFamilyLabel) {
+            html += '<div class="unit-family-group"><div class="unit-family-label">' + group.family + '</div>';
+          }
+          group.units.forEach(unit => {
           const isInArmy = unitIdsInArmy.includes(unit.id);
           const isExpanded = state.expandedLibraryCards[unit.id];
           html += '<div class="unit-card role-' + roleKey + ' ' + (isInArmy ? 'in-army' : '') + '">';
@@ -1986,6 +2046,10 @@
             html += '</div>';
           }
           html += '</div>';
+          });
+          if (showFamilyLabel) {
+            html += '</div>';
+          }
         });
         html += '</div>';
       });
